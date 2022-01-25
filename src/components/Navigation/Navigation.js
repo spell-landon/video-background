@@ -5,11 +5,11 @@ function Navigation(props) {
   return (
     <div className={styles.navBar}>
       <a href='#' className={styles.link}>
-        The Watson
+        Away
       </a>
       <div className={styles.links}>
         <a href='#' className={styles.link}>
-          About
+          Contact
         </a>
         <a href='#' className={styles.link}>
           Stories

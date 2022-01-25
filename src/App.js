@@ -14,8 +14,8 @@ function App() {
         <source src={video} type='video/mp4' />
       </video>
       <div className='content'>
-        <h1>Hello</h1>
-        <h2>Welcome to Watson</h2>
+        <h1>Away</h1>
+        <h2>Find your ocean</h2>
         <a href='#additional'>
           <BsFillArrowDownCircleFill className='arrow' />
         </a>
