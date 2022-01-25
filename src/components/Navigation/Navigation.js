@@ -4,7 +4,7 @@ import styles from './Navigation.module.css';
 function Navigation(props) {
   return (
     <div className={styles.navBar}>
-      <a href='#' className={styles.link}>
+      <a href='#' className={styles.hero}>
         Away
       </a>
       <div className={styles.links}>

@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .link {
   text-decoration: none;
   padding: 0.3rem 0.6rem;
@@ -23,6 +24,17 @@
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   transition: all 0.3s ease;
+  animation: fade 1s forwards ease-in;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.hero {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 36px;
+  border: none;
+  background-color: none;
+  color: rgb(138, 81, 81);
   animation: fade 1s forwards ease-in;
   animation-delay: 3s;
   opacity: 0;
