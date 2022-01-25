@@ -1,0 +1,43 @@
+.navBar {
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+  width: 100vw;
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.links {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  transition: all 0.3s ease;
+  animation: fade 1s forwards ease-in;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.link:hover {
+  background-color: rgb(35, 52, 99);
+  color: white;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

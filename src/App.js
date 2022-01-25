@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import video from './hero-bg-video.mp4';
+import Navigation from './components/Navigation/Navigation';
+import Content from './components/Content/Content';
+import Additional from './components/Additional/Additional';
+import MoreInfo from './components/MoreInfo/MoreInfo';
+import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+      <Navigation />
+      <video autoPlay muted loop id='myVideo'>
+        <source src={video} type='video/mp4' />
+      </video>
+      <div className='content'>
+        <h1>Hello</h1>
+        <h2>Welcome to Watson</h2>
+        <a href='#additional'>
+          <BsFillArrowDownCircleFill className='arrow' />
         </a>
-      </header>
+      </div>
+      <Content />
+      <Additional />
+      <MoreInfo />
     </div>
   );
 }
