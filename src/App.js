@@ -1,5 +1,5 @@
 import './App.css';
-import video from './hero-bg-video.mp4';
+import video from './pexels-rostislav-uzunov-7513671 (1).mp4';
 import Navigation from './components/Navigation/Navigation';
 import Content from './components/Content/Content';
 import Additional from './components/Additional/Additional';
